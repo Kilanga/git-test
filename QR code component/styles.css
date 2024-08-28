@@ -10,14 +10,22 @@ body {
   flex-direction: column;
 }
 
+/* Main Content */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
 /* Card Styling */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-  width: 230px;
+  width: 250px; /* Increased width to make the card larger */
   text-align: center;
-  padding: 20px;
+  padding: 15px; /* Increased padding for more spacious content */
 }
 
 /* QR Code Styling */
@@ -29,28 +37,35 @@ body {
 /* Text Content Styling */
 .text-content {
   margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .text-content h1 {
-  font-size: 18px;
+  font-size: 20px; /* Increased font size for heading */
   color: hsl(218, 44%, 22%);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: 700;
 }
 
 .text-content p {
-  font-size: 15px;
+  font-size: 15px; /* Increased font size for paragraph */
   color: hsl(216, 15%, 48%);
   font-weight: 400;
 }
 
 /* Attribution Styling */
-.attribution {
-  font-size: 11px;
+footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
+.attribution {
+  font-size: 13px; /* Slightly increased font size for attribution */
+}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
+  font-weight: 700; /* Makes the links distinguishable without relying on color */
 }
