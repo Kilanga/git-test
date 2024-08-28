@@ -23,9 +23,10 @@ main {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-  width: 280px; /* Increased width to make the card larger */
+  width: 284px; /* Increased width to make the card larger */
   text-align: center;
   padding: 15px; /* Increased padding for more spacious content */
+  min-height: 410px;
 }
 
 /* QR Code Styling */
@@ -42,7 +43,7 @@ main {
 }
 
 .text-content h1 {
-  font-size: 20px; /* Increased font size for heading */
+  font-size: 22px; /* Increased font size for heading */
   color: hsl(218, 44%, 22%);
   margin-bottom: 15px;
   font-weight: 700;
