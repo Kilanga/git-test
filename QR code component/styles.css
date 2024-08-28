@@ -23,7 +23,7 @@ main {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-  width: 250px; /* Increased width to make the card larger */
+  width: 280px; /* Increased width to make the card larger */
   text-align: center;
   padding: 15px; /* Increased padding for more spacious content */
 }
@@ -37,8 +37,8 @@ main {
 /* Text Content Styling */
 .text-content {
   margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .text-content h1 {
