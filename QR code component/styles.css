@@ -26,7 +26,7 @@ main {
   width: 284px; /* Increased width to make the card larger */
   text-align: center;
   padding: 15px; /* Increased padding for more spacious content */
-  min-height: 415px;
+  min-height: 450px;
 }
 
 /* QR Code Styling */
@@ -37,7 +37,7 @@ main {
 
 /* Text Content Styling */
 .text-content {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
