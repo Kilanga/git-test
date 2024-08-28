@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+/* Card Styling */
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  width: 230px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* QR Code Styling */
+.qr-code img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Text Content Styling */
+.text-content {
+  margin-top: 20px;
+}
+
+.text-content h1 {
+  font-size: 18px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.text-content p {
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
+  font-weight: 400;
+}
+
+/* Attribution Styling */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
