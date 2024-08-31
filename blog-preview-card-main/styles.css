@@ -35,7 +35,7 @@ body {
   background-color: hsl(47, 88%, 63%); /* Fond jaune */
   color: hsl(0, 0%, 7%); /* Texte en noir */
   font-weight: 800;
-  font-size: 16px;
+  font-size: 14px;
   padding: 5px 10px;
   margin: 0 0 15px 0;
   border-radius: 5px;
@@ -66,7 +66,7 @@ body {
 .card-content .author {
   display: flex;
   align-items: center;
-  margin: 30px 0 0px 0;
+  margin: 25px 0 0px 0;
 }
 
 .card-content .author img {
