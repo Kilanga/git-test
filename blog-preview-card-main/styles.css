@@ -1,0 +1,82 @@
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  border: 1px solid hsl(0, 0%, 7%); /* Bordure noire autour de la carte */
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 1); /* Ombre noire */
+  width: 380px;
+  overflow: hidden;
+}
+
+.card-image {
+  padding: 15px 15px 0 15px; /* Ajouter un espace autour de l'image à l'intérieur du conteneur */
+}
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content .category {
+  background-color: hsl(47, 88%, 63%); /* Fond jaune */
+  color: hsl(0, 0%, 7%); /* Texte en noir */
+  font-weight: 800;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.card-content .date {
+  color: hsl(0, 0%, 0%);
+  font-size: 12px;
+  margin: 5px 0 15px;
+}
+
+.card-content h1 {
+  color: hsl(0, 0%, 7%);
+  font-size: 20px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.card-content p {
+  color: hsl(0, 0%, 42%);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.card-content .author {
+  display: flex;
+  align-items: center;
+}
+
+.card-content .author img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.card-content .author span {
+  font-size: 14px;
+  color: hsl(0, 0%, 7%);
+  font-weight: 500;
+  font-weight: bold;
+}
