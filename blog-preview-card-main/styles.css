@@ -35,7 +35,7 @@ body {
   background-color: hsl(47, 88%, 63%); /* Fond jaune */
   color: hsl(0, 0%, 7%); /* Texte en noir */
   font-weight: 800;
-  font-size: 14px;
+  font-size: 15px;
   padding: 5px 10px;
   margin: 0 0 15px 0;
   border-radius: 5px;
@@ -77,7 +77,7 @@ body {
 }
 
 .card-content .author span {
-  font-size: 16px;
+  font-size: 15px;
   color: hsl(0, 0%, 7%);
   font-weight: 500;
   font-weight: bold;
