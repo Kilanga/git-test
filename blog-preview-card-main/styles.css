@@ -18,7 +18,7 @@ body {
 }
 
 .card-image {
-  padding: 15px 15px 0 15px; /* Ajouter un espace autour de l'image à l'intérieur du conteneur */
+  padding: 20px 20px 0 20px; /* Ajouter un espace autour de l'image à l'intérieur du conteneur */
 }
 .card-image img {
   width: 100%;
@@ -37,7 +37,7 @@ body {
   font-weight: 800;
   font-size: 14px;
   padding: 5px 10px;
-  margin-bottom: 5px;
+  margin: 10px 0 10px 0;
   border-radius: 5px;
   display: inline-block;
 }
@@ -51,8 +51,9 @@ body {
 .card-content h1 {
   color: hsl(0, 0%, 7%);
   font-size: 20px;
-  margin: 0;
-  font-weight: 800;
+  margin: 15px 0 15px 0;
+  font-weight: 1000;
+
 }
 
 .card-content p {
@@ -65,6 +66,7 @@ body {
 .card-content .author {
   display: flex;
   align-items: center;
+  margin: 10px 0 10px 0;
 }
 
 .card-content .author img {
