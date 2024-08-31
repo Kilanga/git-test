@@ -18,7 +18,7 @@ body {
 }
 
 .card-image {
-  padding: 22px 20px 0 20px; /* Ajouter un espace autour de l'image à l'intérieur du conteneur */
+  padding: 20px 20px 0 20px; /* Ajouter un espace autour de l'image à l'intérieur du conteneur */
 }
 .card-image img {
   width: 100%;
@@ -50,7 +50,7 @@ body {
 
 .card-content h1 {
   color: hsl(0, 0%, 7%);
-  font-size: 22px;
+  font-size: 25px;
   margin: 20px 0 20px 0;
   font-weight: 1000;
 
@@ -66,7 +66,7 @@ body {
 .card-content .author {
   display: flex;
   align-items: center;
-  margin: 30px 0 10px 0;
+  margin: 30px 0 0px 0;
 }
 
 .card-content .author img {
