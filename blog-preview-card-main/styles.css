@@ -12,7 +12,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   border: 1px solid hsl(0, 0%, 7%); /* Bordure noire autour de la carte */
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 1); /* Ombre noire */
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 1); /* Ombre noire */
   width: 380px;
   overflow: hidden;
 }
@@ -51,7 +51,7 @@ body {
 .card-content h1 {
   color: hsl(0, 0%, 7%);
   font-size: 24px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 15px 0;
   font-weight: 1000;
 
 }
@@ -66,7 +66,7 @@ body {
 .card-content .author {
   display: flex;
   align-items: center;
-  margin: 25px 0 0px 0;
+  margin: 25px 0 5px 0;
 }
 
 .card-content .author img {
