@@ -14,7 +14,6 @@ body {
   border-radius: 10px;
   text-align: center;
   width: 350px;
-  padding-top: 4px;
 }
 
 .profile-img {
@@ -42,7 +41,7 @@ body {
   font-size: 14px;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  margin-bottom: 46px;
+  margin-bottom: 42px;
 }
 
 .social-links {
