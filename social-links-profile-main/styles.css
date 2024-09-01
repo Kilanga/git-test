@@ -22,7 +22,7 @@ body {
   height: 90px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 20px 0 15px 0;
+  margin: 18px 0 10px 0;
 }
 
 .name {
@@ -57,7 +57,7 @@ body {
   font-size: 14px;
   padding: 12px;
   border-radius: 5px;
-  margin: 0px 20px 15px 20px;
+  margin: 0px 20px 12px 20px;
   font-weight: 600;
   transition: background-color 0.3s ease;
 }
