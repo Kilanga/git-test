@@ -14,7 +14,6 @@ body {
   border-radius: 10px;
   text-align: center;
   width: 350px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .profile-img {
@@ -28,13 +27,13 @@ body {
 .name {
   font-size: 24px;
   color: hsl(0, 0%, 100%);
-  margin: 10px 0 10px 0;
+  margin: 10px 0 13px 0;
 }
 
 .location {
   font-size: 14px;
   color: hsl(75, 94%, 57%);
-  margin-bottom: 25px;
+  margin-bottom: 26px;
   font-weight: bold;
 }
 
@@ -42,7 +41,7 @@ body {
   font-size: 15px;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
 }
 
 .social-links {
