@@ -57,7 +57,7 @@ body {
   font-size: 14px;
   padding: 14px;
   border-radius: 5px;
-  margin: 0px 20px 12px 20px;
+  margin: 3px 20px 12px 20px;
   font-weight: 600;
   transition: background-color 0.3s ease;
 }
