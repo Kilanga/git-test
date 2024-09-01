@@ -34,7 +34,7 @@ body {
 .location {
   font-size: 14px;
   color: hsl(75, 94%, 57%);
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   font-weight: bold;
 }
 
@@ -42,7 +42,7 @@ body {
   font-size: 15px;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .social-links {
@@ -57,7 +57,7 @@ body {
   font-size: 14px;
   padding: 14px;
   border-radius: 5px;
-  margin: 3px 20px 12px 20px;
+  margin: -12px 20px 27px 20px;
   font-weight: 600;
   transition: background-color 0.3s ease;
 }
