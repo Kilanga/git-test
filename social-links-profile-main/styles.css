@@ -27,7 +27,7 @@ body {
 .name {
   font-size: 24px;
   color: hsl(0, 0%, 100%);
-  margin: 11px 0 3px 0;
+  margin: 11px 0 -3px 0;
 }
 
 .location {
@@ -41,7 +41,7 @@ body {
   font-size: 14px;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  margin-bottom: 33px;
+  margin-bottom: 40px;
 }
 
 .social-links {
