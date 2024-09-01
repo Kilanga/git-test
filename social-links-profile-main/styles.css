@@ -21,13 +21,13 @@ body {
   height: 90px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 37px 0 16px 0;
+  margin: 38px 0 16px 0;
 }
 
 .name {
   font-size: 24px;
   color: hsl(0, 0%, 100%);
-  margin: 10px 0 8px 0;
+  margin: 11px 0 6px 0;
 }
 
 .location {
@@ -41,7 +41,7 @@ body {
   font-size: 14px;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  margin-bottom: 28px;
+  margin-bottom: 31px;
 }
 
 .social-links {
@@ -58,7 +58,7 @@ body {
   font-size: 14px;
   padding: 14px;
   border-radius: 5px;
-  margin: -7px 20px 25px 20px;
+  margin: -13px 20px 30px 20px;
   font-weight: 600;
   transition: background-color 0.3s ease;
   display: block;
