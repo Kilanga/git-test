@@ -41,7 +41,7 @@ body {
   font-size: 14px;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  margin-bottom: 28px;
+  margin-bottom: 21px;
 }
 
 .social-links {
@@ -58,7 +58,7 @@ body {
   font-size: 14px;
   padding: 14px;
   border-radius: 5px;
-  margin: 12px 20px 10px 20px;
+  margin: 11px 20px 10px 20px;
   font-weight: 600;
   transition: background-color 0.3s ease;
   display: block;
