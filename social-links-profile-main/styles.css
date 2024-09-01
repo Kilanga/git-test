@@ -27,13 +27,13 @@ body {
 .name {
   font-size: 24px;
   color: hsl(0, 0%, 100%);
-  margin: 11px 0 6px 0;
+  margin: 11px 0 3px 0;
 }
 
 .location {
   font-size: 14px;
   color: hsl(75, 94%, 57%);
-  margin-bottom: 26px;
+  margin-bottom: 27px;
   font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ body {
   font-size: 14px;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  margin-bottom: 31px;
+  margin-bottom: 33px;
 }
 
 .social-links {
@@ -58,7 +58,7 @@ body {
   font-size: 14px;
   padding: 14px;
   border-radius: 5px;
-  margin: -13px 20px 30px 20px;
+  margin: -19px 20px 35px 20px;
   font-weight: 600;
   transition: background-color 0.3s ease;
   display: block;
