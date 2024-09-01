@@ -15,6 +15,7 @@ body {
   text-align: center;
   width: 350px;
   margin-bottom: 10px;
+  padding-top: -5px;
 }
 
 .profile-img {
@@ -22,13 +23,13 @@ body {
   height: 90px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 38px 0 16px 0;
+  margin: 43px 0 16px 0;
 }
 
 .name {
   font-size: 24px;
   color: hsl(0, 0%, 100%);
-  margin: 11px 0 -3px 0;
+  margin: 11px 0 -4px 0;
 }
 
 .location {
