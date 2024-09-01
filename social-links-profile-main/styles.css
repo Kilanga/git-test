@@ -15,7 +15,8 @@ body {
   text-align: center;
   width: 350px;
   margin-bottom: 10px;
-  padding-top: -5px;
+  padding-top: -15px;
+  padding-bottom: 10px;
 }
 
 .profile-img {
@@ -23,7 +24,7 @@ body {
   height: 90px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 43px 0 16px 0;
+  margin: 45px 0 14px 0;
 }
 
 .name {
