@@ -1,0 +1,140 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+/* Body Styles */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 0;
+}
+
+/* Recipe container */
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Image styling */
+.image-container img {
+    width: 100%;
+    max-width: 375px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Content container */
+.content {
+    max-width: 375px;
+    padding: 0 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 28px;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: hsl(30, 10%, 34%);
+    text-align: center;
+}
+
+/* Preparation time styles */
+.preparation-time h2 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.preparation-time ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.preparation-time li {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    margin: 5px 0;
+}
+
+/* Instructions section */
+.instructions {
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+    color: hsl(14, 45%, 36%);
+}
+
+/* Nutrition Table */
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.nutrition-table th, .nutrition-table td {
+    text-align: left;
+    padding: 8px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition-table th {
+    font-weight: bold;
+}
+
+/* Attribution section */
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+    .recipe-container {
+        flex-direction: row;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .image-container img {
+        max-width: 400px;
+        margin-right: 40px;
+    }
+
+    .content {
+        max-width: 600px;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .intro-text {
+        text-align: left;
+    }
+
+    .preparation-time h2, .preparation-time ul {
+        text-align: left;
+    }
+}
