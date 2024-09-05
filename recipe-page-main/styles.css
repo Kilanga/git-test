@@ -7,28 +7,27 @@ body {
     background-color: hsl(30, 54%, 90%);
     margin: 0;
     padding: 0;
-}
-
-/* Recipe container */
-.recipe-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    height: 100vh;
 }
 
-/* Image styling */
+.card {
+    max-width: 600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
 .image-container img {
     width: 100%;
-    max-width: 375px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    height: auto;
 }
 
-/* Content container */
 .content {
-    max-width: 375px;
-    padding: 0 20px;
+    padding: 20px;
 }
 
 /* Heading styles */
@@ -36,14 +35,14 @@ h1 {
     font-family: 'Young Serif', serif;
     color: hsl(24, 5%, 18%);
     font-size: 28px;
-    text-align: center;
+    text-align: left;
 }
 
 .intro-text {
     font-size: 16px;
     line-height: 1.6;
     color: hsl(30, 10%, 34%);
-    text-align: center;
+    text-align: left;
 }
 
 /* Preparation time styles */
@@ -52,13 +51,13 @@ h1 {
     color: hsl(332, 51%, 32%);
     font-size: 18px;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .preparation-time ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .preparation-time li {
@@ -67,7 +66,12 @@ h1 {
     margin: 5px 0;
 }
 
-/* Instructions section */
+/* Ingredients section */
+.ingredients {
+    list-style: disc;
+    padding-left: 20px;
+}
+
 .instructions {
     padding-left: 20px;
 }
@@ -107,34 +111,17 @@ h1 {
     text-decoration: none;
 }
 
-/* Desktop Styles */
+/* Responsive for Desktop */
 @media (min-width: 768px) {
-    .recipe-container {
-        flex-direction: row;
-        justify-content: center;
-        padding: 40px;
-    }
-
-    .image-container img {
-        max-width: 400px;
-        margin-right: 40px;
-    }
-
-    .content {
-        max-width: 600px;
-        padding: 0;
+    .card {
+        max-width: 800px;
     }
 
     h1 {
         font-size: 36px;
-        text-align: left;
     }
 
-    .intro-text {
-        text-align: left;
-    }
-
-    .preparation-time h2, .preparation-time ul {
-        text-align: left;
+    .content {
+        padding: 40px;
     }
 }
