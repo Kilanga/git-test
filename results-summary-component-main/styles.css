@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+  
+  .container {
+    display: flex;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result, .summary {
+    padding: 2rem;
+  }
+  
+  .result {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    color: white;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .score-circle {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .score-circle p {
+    font-size: 48px;
+    font-weight: 800;
+  }
+  
+  .score-circle span {
+    font-size: 16px;
+  }
+  
+  .summary {
+    width: 50%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 22px;
+    margin: 15px 0;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(221, 100%, 96%);
+  }
+  
+  .category {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category img {
+    margin-right: 10px;
+  }
+  
+  .category p {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .score p {
+    font-size: 16px;
+  }
+  
+  .continue-btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(234, 85%, 45%);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .continue-btn:hover {
+    background-color: hsl(234, 85%, 60%);
+  }
+  
