@@ -16,3 +16,8 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media (min-width: 768px) {
+  .shadow-gradient {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), 5px 5px 15px rgba(0, 0, 0, 0);
+  }
+}
