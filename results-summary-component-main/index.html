@@ -19,11 +19,12 @@
     <div class="md:w-1/2 bg-gradient-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] rounded-3xl text-center p-8 flex flex-col items-center justify-center">
       <h2 class="text-lg font-bold text-white">Your Result</h2>
       
-      <!-- Cercle avec couleur unie au lieu d'un dégradé -->
-      <div class="bg-[hsl(241,81%,54%)] rounded-full w-36 h-36 flex flex-col items-center justify-center my-4">
-        <p class="text-4xl font-extrabold text-white">{{ totalScore }}</p>
-        <span class="text-sm text-white">of 100</span>
-      </div>
+      <!-- Cercle avec dégradé Violet blue à Persian blue -->
+<div class="bg-gradient-to-b from-[hsla(256,72%,46%,1)] to-[hsla(241,72%,46%,0)] rounded-full w-36 h-36 flex flex-col items-center justify-center my-4">
+  <p class="text-4xl font-extrabold text-white">{{ totalScore }}</p>
+  <span class="text-sm text-white">of 100</span>
+</div>
+
       
       <h3 class="text-2xl font-bold text-white">{{ resultMessage }}</h3>
       <p class="text-white mt-2">You scored higher than 65% of the people who have taken these tests.</p>
@@ -68,11 +69,11 @@
         </div>
         <p class="text-gray-700 font-bold">72 / 100</p>
       </div>
-    
-      <!-- Bouton Continue -->
-<button class="w-full bg-[hsl(234,85%,45%)] text-white font-bold py-2 px-8 rounded-full hover:bg-[hsl(234,85%,60%)] transition">
+<!-- Bouton Continue avec Dark gray blue -->
+<button class="w-full bg-[hsl(224,30%,27%)] text-white font-bold py-2 px-8 rounded-full hover:bg-[hsl(224,30%,35%)] transition">
   Continue
 </button>
+
 
     
 
