@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Résumé des Résultats</title>
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white min-h-screen flex items-center justify-center p-4">
+  
+  <!-- Assurez-vous que l'ID "app" est bien présent -->
+  <main id="app" class="w-full max-w-md md:max-w-2xl bg-white rounded-3xl shadow-gradient overflow-hidden flex flex-col md:flex-row" role="main">
+    
+    <!-- Titre principal de la page -->
+    <h1 class="sr-only">Résumé des résultats</h1>
+
+    <!-- Section "Your Result" avec bords arrondis (2x plus) -->
+    <section class="md:w-1/2 bg-gradient-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] rounded-3xl text-center p-8 flex flex-col items-center justify-center">
+      <h2 class="text-lg font-bold text-white">Your Result</h2>
+      
+      <!-- Cercle avec dégradé Violet blue à Persian blue -->
+      <div class="bg-gradient-to-b from-[hsla(256,72%,46%,1)] to-[hsla(241,72%,46%,0)] rounded-full w-36 h-36 flex flex-col items-center justify-center my-4">
+        <p class="text-4xl font-extrabold text-white">{{ totalScore }}</p>
+        <span class="text-sm text-white">of 100</span>
+      </div>
+      
+      <h3 class="text-2xl font-bold text-white">{{ resultMessage }}</h3>
+      <p class="text-white mt-2">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="md:w-1/2 p-8 bg-white rounded-2xl md:rounded-none md:rounded-r-3xl" aria-labelledby="summary-title">
+      <h2 id="summary-title" class="text-lg font-bold text-gray-700 mb-4">Summary</h2>
+
+      <!-- Reaction - Rouge clair -->
+      <div class="flex items-center justify-between p-4 rounded-lg mb-3 bg-[hsl(0,100%,95%)]">
+        <div class="flex items-center">
+          <img src="./assets/images/icon-reaction.svg" alt="Reaction" class="w-6 h-6 mr-4">
+          <p class="text-[hsl(0,100%,67%)] font-semibold">Reaction</p>
+        </div>
+        <p class="text-gray-700 font-bold">80 / 100</p>
+      </div>
+
+      <!-- Memory - Jaune orangé -->
+      <div class="flex items-center justify-between p-4 rounded-lg mb-3 bg-[hsl(39,100%,95%)]">
+        <div class="flex items-center">
+          <img src="./assets/images/icon-memory.svg" alt="Memory" class="w-6 h-6 mr-4">
+          <p class="text-[hsl(39,100%,56%)] font-semibold">Memory</p>
+        </div>
+        <p class="text-gray-700 font-bold">92 / 100</p>
+      </div>
+
+      <!-- Verbal - Vert turquoise -->
+      <div class="flex items-center justify-between p-4 rounded-lg mb-3 bg-[hsl(166,100%,95%)]">
+        <div class="flex items-center">
+          <img src="./assets/images/icon-verbal.svg" alt="Verbal" class="w-6 h-6 mr-4">
+          <p class="text-[hsl(166,100%,37%)] font-semibold">Verbal</p>
+        </div>
+        <p class="text-gray-700 font-bold">61 / 100</p>
+      </div>
+
+      <!-- Visual - Bleu clair -->
+      <div class="flex items-center justify-between p-4 rounded-lg mb-3 bg-[hsl(234,100%,95%)]">
+        <div class="flex items-center">
+          <img src="./assets/images/icon-visual.svg" alt="Visual" class="w-6 h-6 mr-4">
+          <p class="text-[hsl(234,85%,45%)] font-semibold">Visual</p>
+        </div>
+        <p class="text-gray-700 font-bold">72 / 100</p>
+      </div>
+
+      <!-- Bouton Continue avec Dark gray blue -->
+      <button class="w-full bg-[hsl(224,30%,27%)] text-white font-bold py-2 px-8 rounded-full hover:bg-[hsl(224,30%,35%)] transition">
+        Continue
+      </button>
+    </section>
+  </main>
+
+  <!-- Import de Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="app.js"></script>
+</body>
+</html>

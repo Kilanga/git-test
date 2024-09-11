@@ -1,0 +1,127 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+/* Body Styles */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 28px;
+    text-align: left;
+}
+
+.intro-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: hsl(30, 10%, 34%);
+    text-align: left;
+}
+
+/* Preparation time styles */
+.preparation-time h2 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.preparation-time ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.preparation-time li {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    margin: 5px 0;
+}
+
+/* Ingredients section */
+.ingredients {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.instructions {
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+    color: hsl(14, 45%, 36%);
+}
+
+/* Nutrition Table */
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.nutrition-table th, .nutrition-table td {
+    text-align: left;
+    padding: 8px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition-table th {
+    font-weight: bold;
+}
+
+/* Attribution section */
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* Responsive for Desktop */
+@media (min-width: 768px) {
+    .card {
+        max-width: 800px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .content {
+        padding: 40px;
+    }
+}
